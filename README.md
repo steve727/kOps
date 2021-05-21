@@ -28,4 +28,6 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
  `az login`
 
 Set env var to the subscription you want to use if necessary: 
-`export `AZURE_SUBSCRIPTION_ID=...``
+```shell
+export `AZURE_SUBSCRIPTION_ID=...`
+```
