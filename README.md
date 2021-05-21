@@ -58,6 +58,7 @@ export AZURE_CLIENT_SECRET="xxx..."
 ### kOps commands
 ```shell
 export KOPS_FEATURE_FLAGS=Azure
+
 kops create cluster \
   --cloud azure \
   --name my-azure.k8s.local \
