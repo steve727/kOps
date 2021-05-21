@@ -69,6 +69,8 @@ kops create cluster \
   --azure-resource-group-name steve-kops-test \
   --azure-route-table-name steve-kops-test \
   --azure-admin-user steve
+
+az storage blob list --container-name steve-cluster-configs --output table
 ```
 
 
